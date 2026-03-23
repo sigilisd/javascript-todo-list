@@ -18,7 +18,7 @@
 
 1. Склонируйте репозиторий:
    ```bash
-   git clone [https://github.com/sigilisd/javascript-todo-list.git](https://github.com/sigilisd/javascript-todo-list.git)
+   git clone https://github.com/sigilisd/javascript-todo-list.git
    ```
 
 2. Установите зависимости (нужны только для запуска тестов):
