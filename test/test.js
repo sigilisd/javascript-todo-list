@@ -59,3 +59,15 @@ QUnit.test("Функции не должны изменять оригиналь
   todoFunctions.markTodo(todos, 1);
   assert.deepEqual(todos, originalClone, "markTodo не должен мутировать оригинал");
 });
+
+QUnit.test("filterTodos должен фильтровать по статусу", function(assert) {
+  const todos = [
+    { id: 1, done: true },
+    { id: 2, done: false },
+    { id: 3, done: false }
+  ];
+
+  assert.equal(todoFunctions.filterTodos(todos, 'active').length, 2, "Должно быть 2 активных");
+  assert.equal(todoFunctions.filterTodos(todos, 'completed').length, 1, "Должна быть 1 завершенная");
+  assert.equal(todoFunctions.filterTodos(todos, 'all').length, 3, "Должны быть все 3 задачи");
+});

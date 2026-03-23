@@ -18,6 +18,16 @@ const todoFunctions = {
       }
       return todo;
     });
+  },
+
+  filterTodos: function(todos, filterType) {
+    if (filterType === 'active') {
+      return todos.filter(todo => !todo.done);
+    }
+    if (filterType === 'completed') {
+      return todos.filter(todo => todo.done);
+    }
+    return todos;
   }
 };
 
