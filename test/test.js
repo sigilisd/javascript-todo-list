@@ -1,3 +1,7 @@
+if (typeof require !== 'undefined') {
+  var todoFunctions = require('../logic.js');
+}
+
 QUnit.test("add Todo should add a new todo to the list", function(assert) {
   const todos = [];
   const newTodo = { id: 1, description: "Изучить TDD", done: false };
