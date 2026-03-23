@@ -1,6 +1,6 @@
 const todoFunctions = {
   generateId: function() {
-    return Date.now() + Math.random();
+    return Date.now() + Math.floor(Math.random() * 1000);
   },
 
   addTodo: function(todos, newTodo) {

@@ -2,7 +2,8 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>JS Todo List Tutorial</title>
+  <link rel="icon" href="img/todo-list.png" type="image/png"></linkrel>
+  <title>JS Todo List</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,13 +12,14 @@
     <h1>Список задач</h1>
     
     <form id="todo-form">
-      <input type="text" id="todo-input" placeholder="Что нужно сделать?" required>
+      <input type="text" name="description" id="todo-input" placeholder="Что нужно сделать?" required>
       <button type="submit" id="add-btn">Добавить</button>
     </form>
 
-    <ul id="todo-list"></ul>
+    <div id="todo-container"></div>
   </div>
 
-  <script src="app.js"></script>
+  <script src="logic.js"></script>
+  <script src="dom.js"></script>
 </body>
 </html>
