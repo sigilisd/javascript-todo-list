@@ -40,3 +40,7 @@
 ## Демо
 
 Посмотреть проект в действии можно здесь: https://sigilisd.github.io/javascript-todo-list/
+
+## Видео демонстрация
+
+https://github.com/user-attachments/assets/c55a46f0-29f3-4072-828b-3ccad12c3c2b
