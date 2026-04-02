@@ -1,3 +1,5 @@
+[![Maintainability](https://qlty.sh/gh/sigilisd/projects/javascript-todo-list/maintainability.svg)](https://qlty.sh/gh/sigilisd/projects/javascript-todo-list)
+
 # 📝 JS Todo List
 
 Современный и быстрый менеджер задач, написанный на чистом JavaScript (ES6+). Проект выполнен с использованием методологии **TDD (Test Driven Development)** и принципа разделения ответственности (Separation of Concerns).
